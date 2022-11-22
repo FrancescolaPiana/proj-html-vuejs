@@ -33,6 +33,7 @@
                 justify-content: center;
                 flex-direction: column;
                 background-color: $white;
+                gap: .3rem;
                 border-radius: .3rem;
                 box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
                 li{
@@ -44,6 +45,11 @@
                         text-decoration: none;
                         padding: .4rem .6rem;
                         font-weight: 500;
+
+                        &:hover{
+                            filter: brightness(0);
+                            text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+                        }
                         i{  
                             font-size: 1.2rem;
                         }

@@ -1,15 +1,15 @@
 const icons =[
   {
-    "text": "fa-brands fa-twitter"
+    "text": "fa-solid fa-ruler-combined"
   },
   {
-    "text": "fa-brands fa-facebook-f"
+    "text": "fa-regular fa-life-ring"
   },
   {
-    "text": "fa-brands fa-instagram"
+    "text": "fa-solid fa-book"
   },
   {
-    "text": "fa-brands fa-linkedin"
+    "text": "fa-solid fa-cart-shopping"
   },
 ];
 

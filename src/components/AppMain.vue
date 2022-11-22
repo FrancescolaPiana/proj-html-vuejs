@@ -1,15 +1,26 @@
 <template>
-  
+  <div class="MainContainer">
+    <MainNumbers/>
+    <MainAboutMe/>
+    </div>
 </template>
 
 <script>
-  export default {
-          name: "AppMain",
-      }
+import MainNumbers from './MainNumbers.vue';
+import MainAboutMe from './MainAboutMe.vue';
+    export default {
+        name: "AppHeader",
+        components: {
+          MainNumbers,
+          MainAboutMe,
+          
+        }
+    }
 </script>
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as* ;
- 
+    .MainContainer{
 
+    }
 </style>

@@ -16,10 +16,6 @@
     box-sizing: border-box;
 }
 
-body{
-    
-}
-
 .pFont{
     font-family: 'Playfair Display', serif;
 }
@@ -29,12 +25,18 @@ body{
 }
 
 .btn1{
+    border: 2px solid $mountainmeadown;
     background-color: $mountainmeadown;
     padding: .9rem 2.6rem;
     border-radius: .2rem;
     color: $white;
     font-weight: 600;
     text-decoration: none;
+    transition: all 250ms;
+    &:hover{
+        background-color: $white;
+        color: $mountainmeadown;
+    }
 }
 //font-family: 'Playfair Display', serif;       PRINCIPAL FONT
 //font-family: 'Jost', sans-serif; font-family: 'Playfair Display', serif; SECONDARY FONT
