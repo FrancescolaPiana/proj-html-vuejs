@@ -25,6 +25,7 @@
         position: fixed;
         top: 10rem;
         right: 0;
+        z-index: 1000;
         ul{ 
                 margin: 0;
                 padding: 0;

@@ -77,7 +77,7 @@
         }
     }
     .containe2{
-        margin: 8rem auto;
+        margin: 5rem auto;
         display: flex;
         justify-content: space-between;
         .img{
