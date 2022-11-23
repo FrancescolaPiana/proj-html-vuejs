@@ -19,7 +19,7 @@ import Partners from './Partners.vue';
 import Carousel from './Carousel.vue';
 import News from './News.vue';
     export default {
-        name: "AppHeader",
+        name: "AppMain",
         components: {
           MainNumbers,
           MainAboutMe,

@@ -89,6 +89,12 @@
             justify-content: center;
             align-items: center;
             box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+            transition:  all 500ms;
+
+            &:hover{
+                transform: scale(1.01);
+                cursor: pointer;
+            }
         }
         .text{
             display: flex;

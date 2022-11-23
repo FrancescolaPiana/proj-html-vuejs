@@ -60,9 +60,19 @@ import {news} from '../data/arrayNews';
                 justify-content: space-between;
             .car{
                 width: 280px;
+                transition: all 500ms;
+                &:hover{
+                    transform: scale(1.05);
+                    cursor: pointer;
+                }
+
+                &:hover .img{
+                    transform: scale(1.1);
+                }
                 .img{
                     width: 280px;
                     border-radius: .3rem;
+                    transition: all 500ms;
                 }
                 .text{
                     padding: 2rem 0;
@@ -99,7 +109,11 @@ import {news} from '../data/arrayNews';
                 text-underline-offset: .5rem;
                 color: $mountainmeadown;
                 font-weight: 600;
-                opacity: .7;
+                transition: all 300ms;
+
+                &:hover{
+                    color: $logocolor;
+                }
             }
         }
     }

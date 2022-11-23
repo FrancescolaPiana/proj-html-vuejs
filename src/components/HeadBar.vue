@@ -1,8 +1,8 @@
 <template>
     <div class="containe">
-        <div class="logo">
+        <a href="" class="logo">
             <img src="/img/dark-logo.png" alt="logo MaxCoach">
-        </div>
+        </a>
         <div class="list">
             <ul>
                 <li v-for="(element,i) in list" :key="i" ><a href="">{{element.listcontent}}<i class="fa-solid fa-angle-down"></i></a></li>
@@ -55,6 +55,10 @@
                         color: $logocolor;
                         text-decoration: none;
                         font-weight: 500;
+
+                        &:hover{
+                            filter: brightness(1.8);
+                        }
                         i{  
                             margin-left: .3rem;
                             font-size: .8rem;
@@ -76,9 +80,19 @@
                         align-items: center;
                         color: $cinder;
                         text-decoration: none;
+                        transition: all 500ms;
+                        &:hover{
+                            filter: brightness(2);
+                            transform: scale(1.2);
+                        }
+
+                        &:hover i{
+                            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+                        }
                         i{  
                             font-size: 1.3rem;
                             margin-left: .3rem;
+                            transition: all 500ms;
                         }
                     }
                 }

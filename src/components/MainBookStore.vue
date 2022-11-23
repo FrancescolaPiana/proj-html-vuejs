@@ -88,6 +88,14 @@
             display: flex;
             justify-content: space-between;
             div{
+                transition: all 500ms;
+                border-radius: .3rem;
+                padding-bottom: .5rem;
+                &:hover{
+                    transform: scale(1.1);
+                    cursor: pointer;
+                    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+                }
                 img{
                     width: 19rem;
                 }

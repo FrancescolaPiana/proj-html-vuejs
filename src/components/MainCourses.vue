@@ -72,10 +72,11 @@
                 margin-top: 1.5rem;
                 width: 360px;
                 border-radius: .3rem;
-                transition: all 250ms;
+                transition: all 500ms;
                 &:hover{
                     cursor: pointer;
                     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+                    transform: scale(1.1);
                 }
                 .img{
                     width: 360px;
