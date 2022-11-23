@@ -35,7 +35,7 @@ import {stories} from '../data/arrayRealStories';
         },
         computed: {
             storiesLen(){
-                return this.stories.length;
+                return this.arrayRealStories.length;
             }
         },
 
