@@ -7,7 +7,8 @@
             <a class="btn1" href="">Get Started For Free<i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
         <div class="img">
-        <img class="" src="/img/home-movation-hero-image.png" alt=""></div>
+            <img class="" src="/img/home-movation-hero-image.png" alt="">
+        </div>
     </div>
 </template>
 
@@ -19,6 +20,11 @@
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as* ;
+
+@keyframes fadein {
+    from { opacity: 0; transform: translateY(50px); }
+    to   { opacity: 1; transform: translateY(0px);}
+}
     .containe{
             display: flex;
             justify-content: space-between;
@@ -30,6 +36,7 @@
                 width: 35%;
                 color: $cinder;
                 margin-bottom: 50px;
+                animation: fadein 2s;
                 h6{
                     text-transform: uppercase;
                     margin-bottom: 1.5rem;
@@ -50,7 +57,7 @@
             }
             .img{
                 img{
-                    transition: opacity 1s;
+                    animation: fadein 2s;
                 }
             }
     }

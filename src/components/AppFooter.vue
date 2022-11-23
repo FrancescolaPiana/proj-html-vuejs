@@ -1,14 +1,17 @@
 <template>
-    
+    <FooterContent/>
 </template>
 
 <script>
+import FooterContent from './FooterContent.vue';
     export default {
-        name: "AppFooter",
+        components:{
+            FooterContent
+        }
     }
 </script>
 
 <style lang="scss" scoped>
-@use '../styles/partials/_mixins.scss' as* ;
-@use '../styles/partials/variables' as* ;
+@use '../styles/general.scss' as* ;
+
 </style>
