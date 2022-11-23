@@ -55,9 +55,10 @@
                         color: $logocolor;
                         text-decoration: none;
                         font-weight: 500;
+                        transition: all 200ms;
 
                         &:hover{
-                            filter: brightness(1.8);
+                            color: $mountainmeadown;
                         }
                         i{  
                             margin-left: .3rem;
